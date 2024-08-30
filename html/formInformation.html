@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="../css/css/bootstrap.min.css">
+</head>
+<body>
+    <!-- .was-validated, required,.valid-feedback,.invalid-feedback: định dạng để tạo ra những cảnh báo (thông báo) -->
+    <form action="" class="was-validated border border-secondary m-5 " >
+        <div class="container row mb-3">
+            <div class="container col-4 ">
+                <label for="" class="form-label">First name</label>
+                <input type="text" name="" id="" class="form-control" placeholder="Mark" required>
+                <div class="valid-feedback">Looks good!</div>
+                <div class="invalid-feedback">Please choise a username</div>
+            </div>
+            <div class="container col-4">
+                <label for="" class="form-label">Last name</label>
+                <input type="text" name="" id="" class="form-control" placeholder="Otto" required>
+                <div class="valid-feedback">Looks good!</div>
+                <div class="invalid-feedback">Please choise a username</div>
+            </div>
+            <div class="container col-4">
+                <label for="" class="form-label">Username</label>
+                <input type="email" name="" id="" class="form-control" placeholder="Username" required>
+                <div class="valid-feedback">Looks good!</div>
+                <div class="invalid-feedback">Please choise a username.</div>
+            </div>
+        </div>
+        <div class="container row ">
+            <div class="container col-6">
+                <label for="" class="form-label">City</label>
+                <input type="text" name="" id="" class="form-control" placeholder="City" required>
+                <div class="valid-feedback">Looks good!</div>
+                <div class="invalid-feedback">Please provide a valid city.</div>
+            </div>
+            <div class="container col-3">
+                <label for="" class="form-label">State</label>
+                <input type="text" name="" id="" class="form-control" placeholder="State" required>
+                <div class="valid-feedback">Looks good!</div>
+                <div class="invalid-feedback">Please provide a valid state.</div>
+            </div>
+            <div class="container col-3">
+                <label for="" class="form-label">Zip</label>
+                <input type="email" name="" id="" class="form-control" placeholder="Zip" required>
+                <div class="valid-feedback">Looks good!</div>
+                <div class="invalid-feedback">Please provide a valid zip.</div>
+            </div>
+        </div>
+        <div class="container mt-5">
+            <input type="checkbox" name="" id="" class="form-check-input mb-2" >Agree to terms and conditions <br>You must agree before submitting
+            <br><input type="submit" value="Submit form" class="btn btn-primary mt-3 mb-3">
+        </div>
+    </form>
+</body>
+</html>
